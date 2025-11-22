@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-# exporting 
+# creating nested model and then exporting pydantic objects as  python dictionaries and json
 
 class Address(BaseModel):
     city:str
